@@ -20,7 +20,7 @@ public class Scores_Chapter10 {
 					"root",
 					"msql0218");
 			//データベース接続成功
-			System.out.println("データベース接続成功:jdbc:mysql://localhost/Challenge_java");
+			System.out.println("データベース接続成功：" + con);
 
 			// SQLクエリを準備
 			statement = con.createStatement();

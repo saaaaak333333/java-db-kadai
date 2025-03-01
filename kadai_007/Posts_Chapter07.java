@@ -22,7 +22,7 @@ public class Posts_Chapter07 {
 					"msql0218");
 
 			//データベース接続成功
-			System.out.println("データベース接続成功:jdbc:mysql://localhost/challenge_java");
+			System.out.println("データベース接続成功：" + con);
 
 			// SQLクエリを準備
 			statement = con.createStatement();
